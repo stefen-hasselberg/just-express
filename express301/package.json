@@ -1,11 +1,11 @@
 {
-  "name": "express201",
+  "name": "express301",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "loginSite.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon ./ejsPractice.js"
+    "start": "nodemon loginSite.js"
   },
   "keywords": [],
   "author": "",
@@ -13,9 +13,7 @@
   "dependencies": {
     "ejs": "^3.1.5",
     "express": "^4.17.1",
-    "hbs": "^4.1.1",
     "helmet": "^4.1.0",
-    "nodemon": "^2.0.4",
-    "pug": "^3.0.0"
+    "nodemon": "^2.0.4"
   }
 }
