@@ -5,12 +5,13 @@
   "main": "loginSite.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon loginSite.js"
+    "start": "nodemon routerApp.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cookie-parser": "^1.4.5",
     "ejs": "^3.1.5",
     "express": "^4.17.1",
     "helmet": "^4.1.0",
